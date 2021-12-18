@@ -121,8 +121,27 @@ body {
     margin-bottom: 5px;
 }
 
+.third {
+    background-color: #e5e7eb;
+    height: 300px;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 10;
+}
 
+.quotes {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 600;
+}
 
 
 
