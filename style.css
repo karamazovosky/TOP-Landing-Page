@@ -73,6 +73,7 @@ body {
 
 .hero-right img{
     border-radius: 12px;
+    object-fit: cover;
 }
 
 .hero-headline,
@@ -106,6 +107,7 @@ body {
     font-size: 36px;
     font-weight: 600;
 }
+
 .info-card{
     display: flex;
     max-width: 100%;
