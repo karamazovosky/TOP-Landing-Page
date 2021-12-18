@@ -71,6 +71,10 @@ body {
     display: flex;
 }
 
+.hero-right img{
+    border-radius: 12px;
+}
+
 .hero-headline,
 .hero-description {
     margin-bottom: 20px;
@@ -186,6 +190,6 @@ button a:visited{
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding: 50px;
+    padding: 50px 400px;
     color: white;
 }
