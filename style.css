@@ -124,7 +124,7 @@ body {
 .third {
     background-color: #e5e7eb;
     height: 300px;
-    padding: 0 250px;
+    padding: 0 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,7 +134,7 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    font-weight: 10;
+    font-weight: 1;
 }
 
 .quotes {
@@ -143,17 +143,49 @@ body {
     font-weight: 600;
 }
 
+.fourth {
+    padding: 150px 300px;
+    color: white;
+}
 
+.box {
+    padding: 30px 80px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
 
+.box button {
+    border: solid white;
+}
+
+.texta {
+    font-size: 20px;
+    font-weight: 600;
+}
 button {
     background-color: #3882f6;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
 }
+
 button a,
 button a:visited{
     text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 50px;
     color: white;
 }
